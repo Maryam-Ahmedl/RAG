@@ -10,6 +10,14 @@ venv/
 # Generated storage
 db/
 
+# Generated logs (query/ingest latency)
+logs/
+
+# Generated evaluation artifacts
+eval_dataset.json
+eval_questions.json
+ragas_results.csv
+
 # IDE
 .vscode/
 .idea/
